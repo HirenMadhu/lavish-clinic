@@ -4,4 +4,6 @@
 :root {
     --color-primary: 47 111 106;
   }
-  
+html {
+    scroll-behavior: smooth;
+  }

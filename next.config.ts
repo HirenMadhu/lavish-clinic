@@ -2,14 +2,15 @@ const withMDX = require("@next/mdx")({
   extension: /\.mdx$/,
 });
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: "export",
-  basePath: "/lavish-clinic",
-  assetPrefix: "/lavish-clinic/",
-  trailingSlash: true,
+  output: "export",
   images: {
     unoptimized: true,
   },
+  basePath: "/lavish-clinic",
+  trailingSlash: true,
+  pageExtensions: ["ts", "tsx", "mdx"],
 };
 
-export default nextConfig;
+module.exports = withMDX(nextConfig);
