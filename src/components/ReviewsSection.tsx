@@ -45,14 +45,14 @@ function Stars({ count }: { count: number }) {
 
 export default function ReviewsSection() {
   return (
-    <section className="bg-surface">
+    <section className="bg-primary">
       <div className="mx-auto max-w-7xl px-6 py-20">
         {/* Header */}
         <div className="mb-12 max-w-2xl">
-          <h2 className="text-3xl font-semibold text-foreground">
+          <h2 className="text-3xl font-semibold text-white">
             What Our Patients Say
           </h2>
-          <p className="mt-4 text-muted">
+          <p className="mt-4 text-white">
             Genuine experiences shared by patients who have visited Lavish
             Aesthetique Clinic.
           </p>

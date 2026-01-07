@@ -62,7 +62,7 @@ export default function Header() {
             </Link>
           </nav>
           <button
-            className="md:hidden text-sm text-foreground"
+            className="md:hidden text-primary text-primary"
             onClick={() => setMobileOpen(true)}
             aria-label="Open menu"
           >
