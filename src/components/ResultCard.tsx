@@ -16,7 +16,7 @@ export default function ResultCard({
   return (
     <div className="rounded-lg border border-border bg-white p-4">
       {/* Images */}
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid grid-cols-2 gap-3">
         <div>
           <Image
             src={beforeSrc}

@@ -23,14 +23,14 @@ const reasons = [
   
   export default function WhyLavish() {
     return (
-      <section className="bg-white">
+      <section className="bg-primary">
         <div className="mx-auto max-w-7xl px-6 py-24">
           <div className="max-w-2xl">
-            <h2 className="text-3xl font-semibold text-foreground">
+            <h2 className="text-3xl font-semibold text-white">
               Why Lavish Aesthetique Clinic
             </h2>
   
-            <p className="mt-4 text-lg text-muted">
+            <p className="mt-4 text-lg text-white">
               A calm, ethical, and medically grounded approach to aesthetics.
             </p>
           </div>
@@ -38,10 +38,10 @@ const reasons = [
           <div className="mt-16 grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
             {reasons.map((item) => (
               <div key={item.title}>
-                <h3 className="text-lg font-medium text-foreground">
+                <h3 className="text-lg font-medium text-white">
                   {item.title}
                 </h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted">
+                <p className="mt-3 text-sm leading-relaxed text-white">
                   {item.description}
                 </p>
               </div>

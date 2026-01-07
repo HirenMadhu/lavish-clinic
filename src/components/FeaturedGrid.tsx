@@ -8,9 +8,9 @@ type Props = {
 
 export default function FeaturedGrid({ title, items }: Props) {
   return (
-    <section className="bg-surface">
+    <section className="bg-primary">
       <div className="mx-auto max-w-7xl px-6 py-20">
-        <h2 className="mb-12 text-3xl font-semibold text-foreground">
+        <h2 className="mb-12 text-3xl font-semibold text-white">
           {title}
         </h2>
 

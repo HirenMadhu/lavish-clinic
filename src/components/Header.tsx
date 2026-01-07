@@ -16,12 +16,12 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-lg font-semibold text-gray-900">
+          <Link href="/" className="text-lg font-semibold text-primary">
             Lavish Aesthetique Clinic
           </Link>
 
           {/* Navigation */}
-          <nav className="hidden md:flex items-center gap-8 text-sm text-gray-700">
+          <nav className="hidden md:flex items-center gap-8 text-sm text-primary">
             <div
               className="relative"
               onMouseEnter={() => setTreatmentsOpen(true)}
